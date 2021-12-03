@@ -35,17 +35,15 @@
       padding: 5px 10px;
     }
   </style>
-  <script src="main.js"></script>
+  <script defer src="main.js"></script>
 </head>
 <body>
   <div id="wrap">
     <section>
-      <article class="time-area">
-        00:00:00  
-      </article>
+      <p class="time-area">00:00:00</p>
       <article class="btn-area">
-        <button>cancel</button>
-        <button>start</button>
+        <button id="resetBtn" onclick="resetTimer()">reset</button>
+        <button id="startBtn" onclick="startTimer()">start</button>
       </article>
     </main>
   </div>
